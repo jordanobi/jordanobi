@@ -9,11 +9,12 @@ body {
 
 
 h1, p, h2, h3, a {
-  color: #101C24
+  color: #101C24;
 }
 
 h1 {
   font-size: 48px;
+  color: black;
 }
 
 h3 {
@@ -21,6 +22,14 @@ text-transform: uppercase;
 font-size: 12px;
 margin-bottom: -10px;
 letter-spacing: .05em;
+color: black; /* change to the right color */
+}
+
+.pink-blob {
+  position: absolute;
+  top: 0;
+  left: 10;
+  z-index: -2;
 }
 
 p, a {
@@ -52,8 +61,7 @@ p.title {
   background-image: url("l-corner-blobs.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  position: absolute;
-  position: fixed;
+
   top: -10px;
   width: 500px;
   height: 500px;
@@ -91,20 +99,8 @@ p.title {
 
 }
 
-.red, .blue, .green {
-color: black;
-}
 
-.red {
-  /*background-color: red;*/
-  height: 100%;
-}
 
-.blue {
-  height: 4989px;
-  margin-top: 20px;
-  margin-bottom: 40px;
-}
 
 .green {
   background-color: white;
@@ -115,6 +111,7 @@ color: black;
   background-color: white;
   margin-bottom: 20px;
   margin-top: 60px;
+
 }
 
 .project-style {
@@ -155,21 +152,42 @@ img {
   height: auto;
 }
 
-.nav-button  {
-  width: 100px;
-  height: 50px;
+.next-button  {
   position: absolute;
-  background-color: #1A4746;
   text-align: center;
   font-size: 30px;
   bottom: 30px;
   right: 30px;
-  top: auto;
   position: fixed;
-  padding: 4px;
-  z-index:99
+  z-index:99;
+  width: 120px;
+  height: 60px;
+  border-radius: 4px;
+  background-color: #1A4746;
+  color: #FBF8F3;
+  font-style:  normal;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: .05em;
 }
 
-.nav-button a {
-  color: white;
+.back-button  {
+  position: absolute;
+  text-align: center;
+  font-size: 20px;
+  bottom: 30px;
+  left: 30px;
+  position: fixed;
+  z-index:99;
+  width: 120px;
+  height: 60px;
+  border-radius: 4px;
+  background-color: #1A4746;
+  color: #FBF8F3;
+  font-style:  normal;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: .05em;
 }
