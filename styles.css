@@ -1,0 +1,178 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont,
+    “Segoe UI”, “Roboto”, “Oxygen”, “Ubuntu”, “Cantarell”,
+    “Fira Sans”, “Droid Sans”, “Helvetica Neue”,
+    sans-serif;
+    background-color: #FBF8F3;
+}
+
+
+
+h1, p, h2, h3, a {
+  color: #101C24
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h3 {
+text-transform: uppercase;
+font-size: 12px;
+margin-bottom: -10px;
+letter-spacing: .05em;
+}
+
+p, a {
+  font-size: 16px;
+  color: #101C24;
+
+  line-height: 1.5em;
+
+}
+
+a {
+    font-style: italic;
+}
+
+p.title {
+  width: 50%;
+  margin: 0;
+}
+.company {
+  font-weight: bold;
+}
+
+.phone {
+  background-color: blue;
+  height: 900px;
+}
+
+.l-c-blob {
+  background-image: url("l-corner-blobs.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  position: fixed;
+  top: -10px;
+  width: 500px;
+  height: 500px;
+
+}
+
+.lb-c-blob {
+  background-image: url("lb-corner-blobs.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  position: fixed;
+  bottom: -10px;
+  width: 500px;
+  height: 500px;
+}
+
+
+/* .tr-c-blob {
+  background-image: url("tr-corner-blob.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 500px;
+  height: 500px;
+} */
+
+
+.more {
+  height: 600px;
+  background-color: green;
+
+}
+
+.red, .blue, .green {
+color: black;
+}
+
+.red {
+  /*background-color: red;*/
+  height: 100%;
+}
+
+.blue {
+  height: 4989px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.green {
+  background-color: white;
+  border: 1px solid #101C24;
+}
+
+.project {
+  background-color: white;
+  border: 1px solid #101C24;
+  height: 500px;
+  margin-bottom: 20px;
+  margin-top: 60px;
+}
+
+.socials {
+position: absolute;
+bottom: 20px;
+}
+.intro {
+height: 100%;
+padding-top: 160px;
+
+}
+
+
+.process-photo-1 {
+  background-image: url("Etsy-set-1.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid green;
+}
+
+.project-1 {
+  background-image: url("co-display-1.svg");
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.product-img {
+  background-image: url("phone-mocks.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.nav-button  {
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  background-color: #1A4746;
+  text-align: center;
+  font-size: 30px;
+  bottom: 30px;
+  right: 30px;
+  top: auto;
+  position: fixed;
+  padding: 4px;
+  z-index:99
+}
+
+.nav-button a {
+  color: white;
+}
