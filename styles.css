@@ -19,7 +19,7 @@ a {
 }
 
 a:hover {
-  color: red;
+  color: #337B7A;
 }
 
 h2 {
@@ -43,7 +43,7 @@ color: black; /* change to the right color */
   position: absolute;
   top: 0;
   left: 10;
-  z-index: -2;
+  z-index: -99;
 }
 
 p {
@@ -73,9 +73,10 @@ p.title {
   background-repeat: no-repeat;
   background-size: contain;
 
-  top: -10px;
+  top: -30px;
   width: 500px;
   height: 500px;
+  z-index: -99;
 
 }
 
@@ -85,9 +86,10 @@ p.title {
   background-size: contain;
   position: absolute;
   position: fixed;
-  bottom: -10px;
+  bottom: -30px;
   width: 500px;
   height: 500px;
+  z-index: -99;
 }
 
 
@@ -116,6 +118,7 @@ bottom: 10px;
 .intro {
 height: 100%;
 padding-top: 170px;
+z-index: 100;
 }
 
 
@@ -212,7 +215,8 @@ img {
 
 .left-panel {
   height: 100vh;
-  padding-top: 190px;
+  padding-top: 140px;
+  z-index: 1
 }
 
 .right-panel {
@@ -246,6 +250,13 @@ width: 98%;
   }
 }
 
+
+@media screen and (max-height: 778px) {
+  .lb-c-blob {
+    display:none;
+  }
+}
+
 @media screen and (max-width: 950px) {
   .intro2 {
     overflow: scroll;
@@ -276,5 +287,6 @@ padding-left: 0;;
     width: 400px;
     height: 400px;
     position: absolute;
+    z-index: -99;
   }
 }
