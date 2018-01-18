@@ -86,7 +86,7 @@ p.title {
   background-size: contain;
   position: absolute;
   position: fixed;
-  bottom: -30px;
+  bottom: -40px;
   width: 500px;
   height: 500px;
   z-index: -99;
@@ -253,7 +253,17 @@ width: 98%;
 
 @media screen and (max-height: 778px) {
   .lb-c-blob {
+    /* display:none; */
+    bottom: -60px;
+    width: 480px;
+    height: 480px;
+  }
+}
+
+@media screen and (max-height: 730px) {
+  .lb-c-blob {
     display:none;
+
   }
 }
 
@@ -265,7 +275,7 @@ width: 98%;
   }
 
 .content-box {
-padding-left: 0;;
+padding-left: 0;
 }
   .left-panel {
     width: 100%;
