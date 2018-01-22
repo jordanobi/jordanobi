@@ -145,6 +145,11 @@ img {
   height: auto;
 }
 
+.project-style:hover {
+  -webkit-filter: brightness(80%);
+
+}
+
 .next-button  {
   position: absolute;
   text-align: center;
@@ -229,7 +234,7 @@ img {
     background: transparent;  /* optional: just make scrollbar invisible */
 }
 .right-contain {
-  height: 280vh;
+  height: 350vh;
 }
 
 .content-box {
